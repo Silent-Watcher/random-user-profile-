@@ -5,13 +5,6 @@ hello!
 this is a simple project for practicing fetch function in javascript
 
 
-
-
-## Demo
-
-Insert gif or link to demo
-
-
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)

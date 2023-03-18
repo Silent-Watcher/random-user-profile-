@@ -100,7 +100,7 @@ gulp.task('watch', async () => {
     server: ['./dist/'],
     online: false,
     ghostMode: false,
-    open: 'external',
+    open: 'false',
     ui: false,
     // proxy:
   });
