@@ -1,14 +1,26 @@
 @charset "utf-8";
 
-.card__body {
+#card__body {
   height: 350px;
   background-color: #191c1f;
+  &:hover {
+    button {
+      opacity: 1;
+      transform: translate(0, -30px);
+    }
+  }
 }
 
-img {
+#profile_img {
   transform: translate(0, 80px);
   border: 5px solid #276cb1;
   background: #191c1f;
   width: 200px;
   height: 200px;
+  cursor: pointer;
+}
+
+button {
+  opacity: 0;
+  transition: all 0.4s ease!important;
 }

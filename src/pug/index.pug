@@ -8,24 +8,16 @@ html(lang="en")
                     section.col-4.offset-4
                         figure.m-0.d-block.w-100.text-center
                                 img#profile_img.img-fluid.rounded-circle.user-select-none(src="img/male_avatar.png", alt="male_avatar")
-                        section.card__body.d-flex.justify-content-center.align-items-center.rounded.text-white
-                            .card_heading.text-center 
-                                h2.name.user-select-none.my-3
-                                    span.gender_icon.me-2 
-                                        i.fa-solid.fa-mars-stroke.fs-5
-                                    . 
-                                     Alitaba 
-                                    //- i.fa-solid.fa-venus
-                                h4.location.user-select-none.my-3
-                                    span.location_icon.me-2 
-                                        i.fa-solid.fa-location-dot.fs-5
-                                    .
-                                     United States
-                                h5.phone.user-select-none.my-3
-                                    span.phone_icon.me-2
-                                        i.fa-solid.fa-phone.fs-5
-                                    . 
-                                     09037567362
-                    
+                        section#card__body.rounded.text-white
+                            .card_heading.w-100.text-center.d-flex.justify-content-center.align-items-center.flex-column.h-100.pt-5
+                                button(type="button").btn.btn-secondary new !
+                                h2.name.user-select-none.mt-3 Alitaba 
+                                //- i.fa-solid.fa-venus
+                                h4.location.user-select-none.my-3  Iran
+                                h5.phone.user-select-none.my-3 +989037567362
+            .row 
+                .container 
+                    .copyright.text-center.mt-5
+                        p.text-white.user-select-none made with ❤ and ☕
     include includes/_scripts
 

@@ -65,7 +65,7 @@ gulp.task('cleanJs', async () => {
         presets: ['@babel/preset-env'],
       })
     )
-    // .pipe(compressJs())
+    .pipe(compressJs())
     .pipe(sourceMaps.write('./maps'))
     .pipe(lineec())
     .pipe(gulp.dest(jsDest));
