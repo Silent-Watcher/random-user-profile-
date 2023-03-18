@@ -1,19 +1,22 @@
 @charset "utf-8";
+@import "lamp";
+
+
 
 #card__body {
-  height: 350px;
+  height: 330px;
   background-color: #191c1f;
   &:hover {
     button {
       opacity: 1;
-      transform: translate(0, -30px);
+      transform: translate(0, -25px);
     }
   }
 }
 
 #profile_img {
   transform: translate(0, 80px);
-  border: 5px solid #276cb1;
+  border: 5px solid #E71669;
   background: #191c1f;
   width: 200px;
   height: 200px;
@@ -23,4 +26,8 @@
 button {
   opacity: 0;
   transition: all 0.4s ease!important;
+}
+
+#card{
+  z-index: 2;
 }

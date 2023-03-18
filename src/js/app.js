@@ -7,7 +7,7 @@ function changeUser({ name, location, phone, picture }) {
   $.querySelector('.phone').textContent = phone;
   $.querySelector('.location').textContent = location.country;
   $.querySelector(
-    '.name'
+    '.username'
   ).textContent = `${name.title}.${name.first} ${name.last}`;
   $.querySelector('#profile_img').src = picture.large;
 }
