@@ -1,7 +1,7 @@
 doctype html
 html(lang="en")
     include includes/_head
-    body.bg-dark.vh-100 
+    body.bg-dark.vh-100.position-relative 
         .container-fluid
             .row 
                 .container.mt-5
@@ -38,4 +38,3 @@ html(lang="en")
             fecolormatrix(in='blur' mode='matrix' values='1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7' result='goo')
             feblend(in='SourceGraphic' in2='goo')
     include includes/_scripts
-
