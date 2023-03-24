@@ -12,14 +12,8 @@ https://user-profile-finder.pages.dev/
 
 ## Run Locally
 
-Clone the project
-
 ```bash
   git clone shorturl.at/pxBN3
-
-Go to the project director
-
-```bash
   cd random-user-profile-
 ```
 
