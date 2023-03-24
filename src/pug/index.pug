@@ -1,20 +1,15 @@
-doctype html
-html(lang="en")
-    include includes/_head
-    body.bg-dark.vh-100.position-relative 
-        .container-fluid
-            .row 
-                .container.mt-5
-                    section.col-4.offset-4.position-relative#card
-                        figure.m-0.d-block.w-100.text-center
-                                img#profile_img.img-fluid.rounded-circle.user-select-none(src="img/male_avatar.png", alt="male_avatar")
-                        section#card__body.rounded.text-white
-                            .card_heading.w-100.text-center.d-flex.justify-content-center.align-items-center.flex-column.h-100.pt-5
-                                button(type="button").btn.btn-secondary new !
-                                h2.username.user-select-none.my-3 Alitaba 
-                                //- i.fa-solid.fa-venus
-                                h4.location.user-select-none.my-3  Iran
-                                h5.phone.user-select-none.my-3 +98903*****62
+.container-fluid
+        .row 
+            .container.mt-5
+                section.col-4.offset-4.position-relative#card
+                    figure.m-0.d-block.w-100.text-center
+                            img#profile_img.img-fluid.rounded-circle.user-select-none(src="", alt="male_avatar")
+                    section#card__body.rounded.text-white
+                        .card_heading.w-100.text-center.d-flex.justify-content-center.align-items-center.flex-column.h-100.pt-5
+                            button(type="button").btn.btn-secondary new !
+                            h2.username.user-select-none.my-3 Alitaba 
+                            h4.location.user-select-none.my-3  Iran
+                            h5.phone.user-select-none.my-3 +98903*****62
         .row 
             .container 
                 .copyright.text-center.mt-5
@@ -37,4 +32,3 @@ html(lang="en")
             fegaussianblur(in='SourceGraphic' stdDeviation='10' result='blur')
             fecolormatrix(in='blur' mode='matrix' values='1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7' result='goo')
             feblend(in='SourceGraphic' in2='goo')
-    include includes/_scripts

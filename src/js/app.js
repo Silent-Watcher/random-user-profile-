@@ -1,4 +1,5 @@
 'use strict';
+import imgUrl from "../img/male_avatar.png";
 // -------------------------------------------
 const $ = document,
   btn = $.querySelector('button');
@@ -23,3 +24,5 @@ btn.addEventListener('click', function () {
       changeUser(newUser);
     });
 });
+
+$.querySelector('#profile_img').src = imgUrl;
