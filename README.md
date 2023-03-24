@@ -1,33 +1,23 @@
 
-# random profile finder
+# Random profile finder
 
-hello! 
-this is a simple project for practicing fetch function in javascript
-
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
+a simple project that creating random user profiles using api calls 
 
 
-## Installation
 
-Install my-project with npm
+## Demo 🤗
 
-```bash
-  npm install
-  cd dist
-```
-    
+https://user-profile-finder.pages.dev/
+
+
 ## Run Locally
 
 Clone the project
 
 ```bash
-  git clone https://github.com/Silent-Watcher/random-user-profile-
-```
+  git clone shorturl.at/pxBN3
 
-Go to the project directory
+Go to the project director
 
 ```bash
   cd random-user-profile-
@@ -37,6 +27,7 @@ Install dependencies
 
 ```bash
   npm install
+  yarn install
 ```
 
 Start the server
@@ -49,4 +40,9 @@ Start the server
 ## Screenshots
 
 ![App Screenshot](https://www.linkpicture.com/q/demo_3.png)
+
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
 
